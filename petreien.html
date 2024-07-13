@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全国ペット霊園協会</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 5px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+            padding: 20px 0;
+            background-color: #f8f8f8;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .button-members {
+            background-color: #FF5733;
+        }
+        .button-professionals {
+            background-color: #3375FF;
+        }
+        .button-general {
+            background-color: #FFC300;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .section-title-button {
+            display: block;
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button-professionals {
+            background-color: #3375FF;
+        }
+        .button-general {
+            background-color: #FFC300;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+            .button {
+                width: 80%;
+            }
+            .section-title-button {
+                font-size: 18px;
+                padding: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            .button {
+                width: 100%;
+                padding: 10px;
+            }
+            .section-title-button {
+                font-size: 16px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>一般社団法人 全国ペット霊園協会</h1>
+        <nav>
+            <ul>
+                <li><a href="#charter">憲章</a></li>
+                <li><a href="#rules">会則</a></li>
+                <li><a href="#member">会員向け</a></li>
+                <li><a href="#non-member">ペット葬祭業関係者の皆様へ</a></li>
+                <li><a href="#general">一般者向け</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="button-container">
+            <button class="button button-members" onclick="location.href='#member'">正会員・賛助会員の皆様へ</button>
+            <button class="button button-professionals" onclick="location.href='#non-member'">ペット葬祭業関係者の皆様へ</button>
+            <button class="button button-general" onclick="location.href='#general'">一般者の皆様へ</button>
+        </div>
+        <section id="charter">
+            <h2>全国ペット霊園協会 憲章</h2>
+            <p>
+                一、私達協会員は、動物葬祭を通して動物愛護精神の普及に努め、広く生命を尊重します。<br>
+                一、私達協会員は、良心的、且つ健全なペット葬祭の普及に努めます。<br>
+                一、私達協会員は、ペットを亡くされたご家族の心の痛みを共有し、真心を込めて対応します。
+            </p>
+            <h3>なぜ協会なのか？（協会の存在意義とは）</h3>
+            <p>顧問　衆議院議員　甘利明氏</p>
+            <p>
+                経済活動は「物の売り手と買い手」「サービスの提供者と受け手」の双方が満足することで成り立っています。片方だけが満足するのでは事業を永く続ける事は出来ません。<br>
+                我々ペット葬祭業の世界でも各ペット霊園は双方が満足する事を大前提として、顧客との間に良好な関係を築くよう毎日必死に取り組んでいます。<br>
+                そうした努力の方向は間違ってはいないのですが、実情は多くの潜在的顧客を積み残してしまっています。亡くなってしまった動物たちを弔いたい人達と、火葬、供養の場を提供して顧客が満たされる事を喜びとしたい霊園側とが出会えていない比率がまだまだ多過ぎるのです。<br>
+                そうした問題を改善するだけでなく業界がいつまでも活力を保ち続けるには、各霊園が自身のことだけに囚われることなく我々の業界と社会との関係に心を配り、社会から信頼を得るよう努めることがなにより重要となります。<br>
+                具体的にはペット葬祭業界全体の姿勢が社会道徳に適っているか、利益の追求に大きく傾き「あるべき姿」から外れていないか、動物愛護の活動や社会貢献活動といった努力がされているかが問われる事になります。<br>
+                協会はそうした部分つまり「業界と社会との接点」や「業界全体が社会に貢献する事」に焦点を当てた活動をしています。<br>
+                個々のペット霊園に向かって「常に社会道徳に心配りするよう」要求する事は理想であって現実的ではありません。業界内はペット霊園の経営にゆとりを持っている霊園ばかりではなく、多くの霊園は必死に毎日を生きているのです。<br>
+                しかし顧客との良好な関係を築く事に日々追われて社会道徳との関係を考慮できない業界は、世の中との間に次第に温度差が生まれ、五十年百年とする内にいつしか亀裂となってしまいます。<br>
+                業界の健全な発展には社会との良好な関係を保ち続ける事がなにより重要と考えます。協会は個々の霊園では担い切れないそうした領域を担当することで、単なる仲良しクラブではない実のある活動を展開しています。
+            </p>
+            <p>2011年5月12日　一般社団法人　全国ペット霊園協会</p>
+        </section>
+        <section id="rules">
+            <h2>会則</h2>
+            <p>
+                <!-- 会則の内容をここに記述 -->
+            </p>
+        </section>
+        <section id="member">
+            <h2 class="section-title-button button-members">会員向け</h2>
+            <ul>
+                <li><a href="#products">商品情報</a></li>
+                <li><a href="#reports-directors">各種届出（理事用）</a></li>
+                <li><a href="#reports-members">各種届出（正会員用）</a></li>
+                <li><a href="#certification">優良ペット霊園認定制度</a></li>
+                <li><a href="#member-list">正会員名簿</a></li>
+                <li><a href="#board-news">理事会からのお知らせ</a></li>
+                <li><a href="#member-forum">正会員専用掲示板</a></li>
+                <li><a href="#supporter-forum">賛助会員用掲示板</a></li>
+            </ul>
+            <section id="products">
+                <h3>商品情報</h3>
+                <p>
+                    協会員専用のペット葬祭関連商品に関する情報を提供します。新商品やキャンペーン情報、特別価格での提供など、会員限定の特典も多数ご用意しています。
+                </p>
+            </section>
+            <section id="reports-directors">
+                <h3>各種届出（理事用）</h3>
+                <p>
+                    理事向けの各種届出フォームです。重要な会議やイベントの出欠連絡、報告書の提出などを行うことができます。
+                </p>
+            </section>
+            <section id="reports-members">
+                <h3>各種届出（正会員用）</h3>
+                <p>
+                    正会員向けの各種届出フォームです。必要な書類の提出や、問い合わせ事項の報告などを行うことができます。
+                </p>
+            </section>
+            <section id="certification">
+                <h3>優良ペット霊園認定制度</h3>
+                <p>
+                    優良ペット霊園の認定基準と申請手続きについて説明します。認定を受けることで、信頼性とサービス品質の向上を目指します。
+                </p>
+            </section>
+            <section id="member-list">
+                <h3>正会員名簿</h3>
+                <p>
+                    現在の正会員名簿です。各会員の基本情報や連絡先、担当する霊園の紹介などが掲載されています。
+                </p>
+            </section>
+            <section id="board-news">
+                <h3>理事会よりのお知らせ</h3>
+                <p>
+                    理事会からの最新のお知らせを掲載します。重要な決定事項やイベント情報、会議の議事録などを確認できます。
+                </p>
+            </section>
+            <section id="member-forum">
+                <h3>正会員専用掲示板</h3>
+                <p>
+                    正会員同士が情報交換や意見交換を行うための掲示板です。業界の最新情報や、成功事例の共有などにご利用ください。
+                </p>
+            </section>
+            <section id="supporter-forum">
+                <h3>賛助会員用掲示板</h3>
+                <p>
+                    賛助会員専用の掲示板です。協賛企業との情報交換や、協力関係の構築に役立ててください。
+                </p>
+            </section>
+        </section>
+        <section id="non-member">
+            <h2 class="section-title-button button-professionals">ペット葬祭業関係者の皆様へ</h2>
+            <ul>
+                <li><a href="#membership">入会案内</a></li>
+                <li><a href="#industry-news">業界ニュース</a></li>
+                <li><a href="#training">資格・研修情報</a></li>
+                <li><a href="#matching">ビジネスマッチング</a></li>
+                <li><a href="#laws">各種法令</a></li>
+                <li><a href="#succession">事業継承をお考えの方へ</a></li>
+                <li><a href="#new-business">新規でペット葬祭業を考えの方</a></li>
+                <li><a href="#consultation">各種相談</a></li>
+                <li><a href="#contact-non-member">連絡先</a></li>
+            </ul>
+            <section id="membership">
+                <h3>入会案内</h3>
+                <p>
+                    全国ペット霊園協会への入会手続きについてご案内します。会員になることで得られる特典や、入会条件、手続きの流れについて詳しく説明します。
+                </p>
+            </section>
+            <section id="industry-news">
+                <h3>業界ニュース</h3>
+                <p>
+                    ペット葬祭業界の最新ニュースやトレンドをお届けします。新たな法律や規制、業界イベントの情報などを定期的に更新しています。
+                </p>
+            </section>
+            <section id="training">
+                <h3>資格・研修情報</h3>
+                <p>
+                    ペット葬祭業に関連する資格取得や、スキル向上のための研修情報を提供します。業界のプロフェッショナルとして必要な知識と技術を習得するための機会を紹介します。
+                </p>
+            </section>
+            <section id="matching">
+                <h3>ビジネスマッチング</h3>
+                <p>
+                    ペット葬祭業に関連する企業や個人とのビジネスマッチングを支援します。協力関係を築くためのイベントやプラットフォームを提供します。
+                </p>
+            </section>
+            <section id="laws">
+                <h3>各種法令</h3>
+                <p>
+                    ペット葬祭業に関わる法令や規制について詳しく解説します。業務を行う上で知っておくべき法的事項や、遵守すべき規則を分かりやすく説明します。
+                </p>
+            </section>
+            <section id="succession">
+                <h3>事業継承をお考えの方へ</h3>
+                <p>
+                    ペット葬祭業の事業継承を考えている方へのサポート情報です。スムーズな事業継承のための手続きや、注意すべきポイントについて解説します。
+                </p>
+            </section>
+            <section id="new-business">
+                <h3>新規でペット葬祭業を考えの方</h3>
+                <p>
+                    新たにペット葬祭業を始めたいと考えている方へのガイドです。業界の基本情報や、ビジネスを始めるためのステップについて詳しく説明します。
+                </p>
+            </section>
+            <section id="consultation">
+                <h3>各種相談</h3>
+                <p>
+                    ペット葬祭業に関する様々な相談に応じます。経営の悩みや法律問題、マーケティング戦略など、専門家がサポートします。
+                </p>
+            </section>
+            <section id="contact-non-member">
+                <h3>連絡先</h3>
+                <p>
+                    全国ペット霊園協会へのお問い合わせ窓口です。ご質問やご意見、ご要望など、お気軽にご連絡ください。
+                </p>
+            </section>
+        </section>
+        <section id="general">
+            <h2 class="section-title-button button-general">一般者の皆様へ</h2>
+            <ul>
+                <li><a href="#about-cemetery">ペット霊園について</a></li>
+                <li><a href="#about-cremation">ペット火葬について～ペット火葬の種類～</a></li>
+                <li><a href="#cremation-fees">ペット火葬の料金について</a></li>
+                <li><a href="#what-to-do">亡くなった時の対処方法</a></li>
+                <li><a href="#reservation">予約の方法</a></li>
+                <li><a href="#choosing">ペット葬祭業者の選び方</a></li>
+                <li><a href="#caution">注意事項</a></li>
+                <li><a href="#pet-loss">とても悲しい気持ちが続くときは・・ペットロスについて</a></li>
+                <li><a href="#voice">お客様の声</a></li>
+                <li><a href="#general-faq">よくある質問</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+            <section id="about-cemetery">
+                <h3>ペット霊園について</h3>
+                <p>
+                    ペット霊園の役割や歴史、サービス内容について紹介します。ペット霊園が提供する供養の形や、選び方のポイントも解説します。
+                </p>
+            </section>
+            <section id="about-cremation">
+                <h3>ペット火葬について～ペット火葬の種類～</h3>
+                <p>
+                    ペット火葬の種類とその違いについて説明します。個別火葬や合同火葬、それぞれのメリットとデメリットについても触れます。
+                </p>
+            </section>
+            <section id="cremation-fees">
+                <h3>ペット火葬の料金について</h3>
+                <p>
+                    ペット火葬にかかる費用の目安や、料金の内訳について詳しく説明します。追加費用やオプションサービスについても解説します。
+                </p>
+            </section>
+            <section id="what-to-do">
+                <h3>亡くなった時の対処方法</h3>
+                <p>
+                    ペットが亡くなった際の初動対応について、具体的なステップを説明します。必要な手続きや、火葬・埋葬の手順についても詳しく解説します。
+                </p>
+            </section>
+            <section id="reservation">
+                <h3>予約の方法</h3>
+                <p>
+                    ペット霊園や火葬サービスの予約方法について説明します。予約の際に必要な情報や、確認すべきポイントについても紹介します。
+                </p>
+            </section>
+            <section id="choosing">
+                <h3>ペット葬祭業者の選び方</h3>
+                <p>
+                    信頼できるペット葬祭業者の選び方についてアドバイスします。口コミの確認方法や、業者の信頼性を見極めるポイントについても触れます。
+                </p>
+            </section>
+            <section id="caution">
+                <h3>注意事項</h3>
+                <p>
+                    ペットの葬儀や火葬に関する注意事項について解説します。事前に知っておくべきことや、トラブルを避けるためのアドバイスを提供します。
+                </p>
+            </section>
+            <section id="pet-loss">
+                <h3>とても悲しい気持ちが続くときは・・ペットロスについて</h3>
+                <p>
+                    ペットロスに関する情報と対処法について紹介します。専門家のアドバイスや、サポートグループの情報も提供します。
+                </p>
+            </section>
+            <section id="voice">
+                <h3>お客様の声</h3>
+                <p>
+                    実際にペット葬祭サービスを利用された方々の声を紹介します。体験談や感謝のメッセージを通じて、サービスの質を知っていただけます。
+                </p>
+            </section>
+            <section id="general-faq">
+                <h3>よくある質問</h3>
+                <p>
+                    ペット葬祭に関するよくある質問とその回答をまとめました。初めての方にも分かりやすいように、基本的な情報を網羅しています。
+                </p>
+            </section>
+            <section id="contact">
+                <h3>お問い合わせ</h3>
+                <p>
+                    全国ペット霊園協会へのお問い合わせフォームです。ご質問やご意見、ご要望など、お気軽にご連絡ください。
+                </p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 全国ペット霊園協会</p>
+    </footer>
+</body>
+</html>
